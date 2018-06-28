@@ -1,0 +1,103 @@
+html{
+        -webkit-tap-highlight-color: transparent;
+}
+head {
+    display: none;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container-1 > * {
+    width: 500px;
+    margin: 1em 0;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    display: block;
+}
+.form-control-lg{
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input {
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.form-group .btn {
+    margin-left: 0.5em;
+    color: #FD7272;
+    font-size: 1.5em;
+}
+button, html [type=button] {
+    -webkit-appearance: button;
+}
+.btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button{
+    text-transform: none;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    align-items: flex-start;
+    text-rendering: auto;
+    font: 400 13.3333px Arial;
+}
+
+body {
+    background-color: #FD7272;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    font-size: 1erm;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
